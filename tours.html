@@ -3,20 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Tours - Morocco Travel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header style="padding:20px;background:var(--color4);color:#fff">
+  <header>
+    <div class="logo">Morocco Travel</div>
     <nav>
-      <a href="index.html">Home</a> |
-      <a href="tours.html">Tours</a> |
-      <a href="activities.html">Activities</a> |
+      <a href="index.html">Home</a>
+      <a href="tours.html">Tours</a>
+      <a href="activities.html">Activities</a>
       <a href="accommodations.html">Accommodations</a>
     </nav>
   </header>
 
-  <main style="padding:20px">
+  <main class="section">
     <h1>Tours</h1>
+    <div class="search-bar">
+      <input id="tour-search" type="text" placeholder="Search tours...">
+    </div>
     <div class="grid tours-grid"></div>
   </main>
 
@@ -24,10 +29,11 @@
     <a href="https://wa.me/000000000" target="_blank">WhatsApp Us</a>
   </div>
 
-  <footer style="padding:20px;background:#eee;margin-top:40px;text-align:center">
+  <footer>
     &copy; Placeholder Travel 2024
   </footer>
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Placeholder Travel"}</script>
   <script src="script.js"></script>
 </body>
 </html>

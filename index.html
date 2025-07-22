@@ -3,22 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>Morocco Travel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header style="padding:20px;background:var(--color4);color:#fff">
+  <header>
+    <div class="logo">Morocco Travel</div>
     <nav>
-      <a href="index.html">Home</a> |
-      <a href="tours.html">Tours</a> |
-      <a href="activities.html">Activities</a> |
+      <a href="index.html">Home</a>
+      <a href="tours.html">Tours</a>
+      <a href="activities.html">Activities</a>
       <a href="accommodations.html">Accommodations</a>
+      <a href="blog.html">Blog</a>
     </nav>
   </header>
 
-  <section class="hero-banner">
-    <h1>Discover Vibrant Morocco</h1>
-    <p>Your adventure starts here.</p>
-    <a href="tours.html" class="btn">Explore Tours</a>
+  <section class="hero">
+    <video autoplay muted loop poster="public/vercel.svg">
+      <source src="https://cdn.pixabay.com/vimeo/474142949/morocco-33957.mp4?width=960&hash=e2a5c676b6" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Discover Vibrant Morocco</h1>
+      <p>Your adventure starts here</p>
+      <a href="tours.html" class="btn">Explore Tours</a>
+    </div>
   </section>
 
   <div class="category-grid">
@@ -28,27 +37,42 @@
     <a href="accommodations.html" class="category-tile">Accommodations</a>
   </div>
 
-  <section id="featured-tours">
+  <section class="section" id="featured-tours">
     <h2>Featured Tours</h2>
     <div class="grid tours-grid"></div>
   </section>
 
-  <section id="top-activities">
+  <section class="section" id="top-activities">
     <h2>Top Activities</h2>
     <div class="grid activities-grid"></div>
   </section>
 
-  <section id="accommodations">
+  <section class="section" id="accommodations">
     <h2>Accommodations</h2>
     <div class="grid accommodations-grid"></div>
   </section>
 
-  <section id="testimonials">
-    <h2>Testimonials</h2>
-    <div class="grid testimonials-grid"></div>
+  <section class="section" id="destinations">
+    <h2>Highlighted Destinations</h2>
+    <div class="grid">
+      <div class="card"><img loading="lazy" src="https://source.unsplash.com/featured/?marrakech" alt="Marrakech"><div class="p-2"><h3>Marrakech</h3></div></div>
+      <div class="card"><img loading="lazy" src="https://source.unsplash.com/featured/?sahara" alt="Sahara"><div class="p-2"><h3>Sahara Desert</h3></div></div>
+      <div class="card"><img loading="lazy" src="https://source.unsplash.com/featured/?chefchaouen" alt="Chefchaouen"><div class="p-2"><h3>Chefchaouen</h3></div></div>
+      <div class="card"><img loading="lazy" src="https://source.unsplash.com/featured/?atlas,mountains" alt="Atlas"><div class="p-2"><h3>Atlas Mountains</h3></div></div>
+    </div>
   </section>
 
-  <section id="faq">
+  <section class="section" id="blog">
+    <h2>Latest Travel Tips</h2>
+    <div class="grid blog-grid"></div>
+  </section>
+
+  <section class="section" id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonials-slider"></div>
+  </section>
+
+  <section class="section" id="faq">
     <h2>FAQ</h2>
     <div class="faq-accordion"></div>
   </section>
@@ -57,10 +81,11 @@
     <a href="https://wa.me/000000000" target="_blank">WhatsApp Us</a>
   </div>
 
-  <footer style="padding:20px;background:#eee;margin-top:40px;text-align:center">
+  <footer>
     &copy; Placeholder Travel 2024
   </footer>
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Placeholder Travel"}</script>
   <script src="script.js"></script>
 </body>
 </html>
