@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard | Travel Legacy Morocco</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <h1>TRAVEL LEGACY</h1>
+          <span>Admin Dashboard</span>
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">View Website</a></li>
+          <li><a href="dashboard.html" class="active">Dashboard</a></li>
+          <li><a href="contact.html">Support</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="#" id="logout-btn" class="btn btn-outline">Logout</a>
+        </div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Dashboard Content -->
+  <div class="dashboard-container">
+    <!-- Sidebar -->
+    <aside class="dashboard-sidebar">
+      <div class="user-profile">
+        <div class="user-avatar">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="user-info">
+          <h3>Admin User</h3>
+          <p>Administrator</p>
+        </div>
+      </div>
+      <nav class="sidebar-nav">
+        <ul>
+          <li class="active"><a href="#tours-section" data-section="tours-section"><i class="fas fa-route"></i> Tours</a></li>
+          <li><a href="#settings-section" data-section="settings-section"><i class="fas fa-cog"></i> Settings</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="dashboard-main">
+      <!-- Dashboard Header -->
+      <div class="dashboard-header">
+        <h1>Dashboard</h1>
+        <div class="dashboard-actions">
+          <button id="create-tour-btn" class="btn btn-primary"><i class="fas fa-plus"></i> Create New Tour</button>
+        </div>
+      </div>
+
+      <!-- Dashboard Stats -->
+      <div class="dashboard-stats">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-route"></i>
+          </div>
+          <div class="stat-content">
+            <h3>Total Tours</h3>
+            <p class="stat-number">6</p>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="stat-content">
+            <h3>Average Rating</h3>
+            <p class="stat-number">4.8</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dashboard Sections -->
+      <div class="dashboard-sections">
+        <!-- Tours Section -->
+        <section id="tours-section" class="dashboard-section active">
+          <div class="section-header">
+            <h2>Manage Tours</h2>
+            <div class="section-actions">
+              <div class="search-box">
+                <input type="text" id="tour-search" placeholder="Search tours...">
+                <i class="fas fa-search"></i>
+              </div>
+              <select id="tour-filter">
+                <option value="all">All Tours</option>
+                <option value="active">Active</option>
+                <option value="draft">Draft</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="table-container">
+            <table class="dashboard-table">
+              <thead>
+                <tr>
+                  <th>Tour Name</th>
+                  <th>Duration</th>
+                  <th>Category</th>
+                  <th>Status</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>8-Day Luxury Tour Imperial Cities & Medinas</td>
+                  <td>8 Days</td>
+                  <td>Cultural Experience</td>
+                  <td><span class="status-badge active">Active</span></td>
+                  <td class="actions">
+                    <button class="action-btn edit-btn" data-id="1"><i class="fas fa-edit"></i></button>
+                    <button class="action-btn view-btn" data-id="1"><i class="fas fa-eye"></i></button>
+                    <button class="action-btn delete-btn" data-id="1"><i class="fas fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>5 Days Sahara Desert Safari</td>
+                  <td>5 Days</td>
+                  <td>Desert Experience</td>
+                  <td><span class="status-badge active">Active</span></td>
+                  <td class="actions">
+                    <button class="action-btn edit-btn" data-id="2"><i class="fas fa-edit"></i></button>
+                    <button class="action-btn view-btn" data-id="2"><i class="fas fa-eye"></i></button>
+                    <button class="action-btn delete-btn" data-id="2"><i class="fas fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>10 Days Ultimate Northern Morocco Private Tour</td>
+                  <td>10 Days</td>
+                  <td>Cultural & Heritage</td>
+                  <td><span class="status-badge active">Active</span></td>
+                  <td class="actions">
+                    <button class="action-btn edit-btn" data-id="3"><i class="fas fa-edit"></i></button>
+                    <button class="action-btn view-btn" data-id="3"><i class="fas fa-eye"></i></button>
+                    <button class="action-btn delete-btn" data-id="3"><i class="fas fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>8‑Day Private Morocco Expedition 2025‑26</td>
+                  <td>8 Days</td>
+                  <td>Luxury Experience</td>
+                  <td><span class="status-badge active">Active</span></td>
+                  <td class="actions">
+                    <button class="action-btn edit-btn" data-id="4"><i class="fas fa-edit"></i></button>
+                    <button class="action-btn view-btn" data-id="4"><i class="fas fa-eye"></i></button>
+                    <button class="action-btn delete-btn" data-id="4"><i class="fas fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>11‑Day Luxury Journey Through Morocco</td>
+                  <td>11 Days</td>
+                  <td>Luxury Experience</td>
+                  <td><span class="status-badge active">Active</span></td>
+                  <td class="actions">
+                    <button class="action-btn edit-btn" data-id="5"><i class="fas fa-edit"></i></button>
+                    <button class="action-btn view-btn" data-id="5"><i class="fas fa-eye"></i></button>
+                    <button class="action-btn delete-btn" data-id="5"><i class="fas fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>10‑Day Jewish Heritage Journey</td>
+                  <td>10 Days</td>
+                  <td>Heritage & Cultural</td>
+                  <td><span class="status-badge active">Active</span></td>
+                  <td class="actions">
+                    <button class="action-btn edit-btn" data-id="6"><i class="fas fa-edit"></i></button>
+                    <button class="action-btn view-btn" data-id="6"><i class="fas fa-eye"></i></button>
+                    <button class="action-btn delete-btn" data-id="6"><i class="fas fa-trash"></i></button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Settings Section -->
+        <section id="settings-section" class="dashboard-section">
+          <div class="section-header">
+            <h2>Settings</h2>
+          </div>
+          <div class="settings-container">
+            <div class="settings-card">
+              <h3>Account Settings</h3>
+              <form id="account-settings-form">
+                <div class="form-group">
+                  <label for="admin-name">Name</label>
+                  <input type="text" id="admin-name" value="Admin User">
+                </div>
+                <div class="form-group">
+                  <label for="admin-email">Email</label>
+                  <input type="email" id="admin-email" value="admin@travel-legacy.com">
+                </div>
+                <div class="form-group">
+                  <label for="admin-password">New Password</label>
+                  <input type="password" id="admin-password" placeholder="Enter new password">
+                </div>
+                <div class="form-group">
+                  <label for="admin-password-confirm">Confirm Password</label>
+                  <input type="password" id="admin-password-confirm" placeholder="Confirm new password">
+                </div>
+                <button type="submit" class="btn btn-primary">Save Changes</button>
+              </form>
+            </div>
+            <div class="settings-card">
+              <h3>Website Settings</h3>
+              <form id="website-settings-form">
+                <div class="form-group">
+                  <label for="site-title">Site Title</label>
+                  <input type="text" id="site-title" value="Travel Legacy | Authentic Morocco Tours">
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">Contact Email</label>
+                  <input type="email" id="contact-email" value="info@amdktours.com">
+                </div>
+                <div class="form-group">
+                  <label for="contact-phone">Contact Phone</label>
+                  <input type="text" id="contact-phone" value="+212 661-183179 
+">
+                </div>
+                <button type="submit" class="btn btn-primary">Save Changes</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <!-- Tour Editor Modal -->
+  <div id="tour-editor-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Create New Tour</h2>
+        <button class="close-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="tour-form">
+          <!-- Basic Information -->
+          <div class="form-section">
+            <h3>Basic Information</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="tour-title">Tour Title*</label>
+                <input type="text" id="tour-title" required placeholder="e.g. 8-Day Luxury Tour Imperial Cities">
+              </div>
+              <div class="form-group">
+                <label for="tour-duration">Duration*</label>
+                <input type="text" id="tour-duration" required placeholder="e.g. 8 Days">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="tour-category">Category*</label>
+                <select id="tour-category" required>
+                  <option value="">Select a category</option>
+                  <option value="Cultural Experience">Cultural Experience</option>
+                  <option value="Desert Experience">Desert Experience</option>
+                  <option value="Luxury Experience">Luxury Experience</option>
+                  <option value="Cultural & Heritage">Cultural & Heritage</option>
+                  <option value="Heritage & Cultural">Heritage & Cultural</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="tour-price">Price*</label>
+                <input type="number" id="tour-price" required placeholder="e.g. 1200">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="tour-destinations">Destinations*</label>
+              <input type="text" id="tour-destinations" required placeholder="e.g. Marrakech, Fes, Sahara Desert">
+            </div>
+            <div class="form-group">
+              <label for="tour-hero-image">Hero Image URL*</label>
+              <input type="url" id="tour-hero-image" required placeholder="e.g. https://images.unsplash.com/photo-1597212618440-806262de4f6b">
+            </div>
+          </div>
+
+          <!-- Tour Overview -->
+          <div class="form-section">
+            <h3>Tour Overview</h3>
+            <div class="form-group">
+              <label for="tour-overview">Overview*</label>
+              <textarea id="tour-overview" rows="5" required placeholder="Provide a detailed overview of the tour..."></textarea>
+            </div>
+            <div class="form-group">
+              <label for="tour-highlights">Highlights*</label>
+              <textarea id="tour-highlights" rows="5" required placeholder="Enter tour highlights, one per line..."></textarea>
+              <small>Enter each highlight on a new line. They will be formatted as a list.</small>
+            </div>
+          </div>
+
+          <!-- Tour Features -->
+          <div class="form-section">
+            <h3>Tour Features</h3>
+            <div class="features-container">
+              <div class="feature-item">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="feature-icon-1">Icon*</label>
+                    <select id="feature-icon-1" required>
+                      <option value="fas fa-car">Car/Transport</option>
+                      <option value="fas fa-user-tie">Guide/Expert</option>
+                      <option value="fas fa-hotel">Accommodation</option>
+                      <option value="fas fa-utensils">Food/Meals</option>
+                      <option value="fas fa-map-marked-alt">Itinerary</option>
+                      <option value="fas fa-users">Group Size</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="feature-title-1">Title*</label>
+                    <input type="text" id="feature-title-1" required placeholder="e.g. Luxury Transport">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="feature-description-1">Description*</label>
+                  <input type="text" id="feature-description-1" required placeholder="e.g. Mercedes Vito or 4x4 vehicle">
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="feature-icon-2">Icon*</label>
+                    <select id="feature-icon-2" required>
+                      <option value="fas fa-car">Car/Transport</option>
+                      <option value="fas fa-user-tie" selected>Guide/Expert</option>
+                      <option value="fas fa-hotel">Accommodation</option>
+                      <option value="fas fa-utensils">Food/Meals</option>
+                      <option value="fas fa-map-marked-alt">Itinerary</option>
+                      <option value="fas fa-users">Group Size</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="feature-title-2">Title*</label>
+                    <input type="text" id="feature-title-2" required placeholder="e.g. Expert Guide">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="feature-description-2">Description*</label>
+                  <input type="text" id="feature-description-2" required placeholder="e.g. Multilingual speaking driver">
+                </div>
+              </div>
+              <button type="button" id="add-feature-btn" class="btn btn-outline btn-sm"><i class="fas fa-plus"></i> Add Feature</button>
+            </div>
+          </div>
+
+          <!-- Itinerary -->
+          <div class="form-section">
+            <h3>Itinerary</h3>
+            <div class="itinerary-container">
+              <div class="itinerary-item">
+                <div class="form-group">
+                  <label for="day-title-1">Day 1 Title*</label>
+                  <input type="text" id="day-title-1" required placeholder="e.g. Arrival in Casablanca">
+                </div>
+                <div class="form-group">
+                  <label for="day-content-1">Day 1 Content*</label>
+                  <textarea id="day-content-1" rows="3" required placeholder="Describe the activities for day 1..."></textarea>
+                </div>
+              </div>
+              <div class="itinerary-item">
+                <div class="form-group">
+                  <label for="day-title-2">Day 2 Title*</label>
+                  <input type="text" id="day-title-2" required placeholder="e.g. Casablanca to Rabat">
+                </div>
+                <div class="form-group">
+                  <label for="day-content-2">Day 2 Content*</label>
+                  <textarea id="day-content-2" rows="3" required placeholder="Describe the activities for day 2..."></textarea>
+                </div>
+              </div>
+              <button type="button" id="add-day-btn" class="btn btn-outline btn-sm"><i class="fas fa-plus"></i> Add Day</button>
+            </div>
+          </div>
+
+          <!-- Includes/Excludes -->
+          <div class="form-section">
+            <h3>Includes/Excludes</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="tour-includes">Included in the Price*</label>
+                <textarea id="tour-includes" rows="5" required placeholder="Enter included items, one per line..."></textarea>
+                <small>Enter each item on a new line. They will be formatted as a list.</small>
+              </div>
+              <div class="form-group">
+                <label for="tour-excludes">Not Included*</label>
+                <textarea id="tour-excludes" rows="5" required placeholder="Enter excluded items, one per line..."></textarea>
+                <small>Enter each item on a new line. They will be formatted as a list.</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery -->
+          <div class="form-section">
+            <h3>Gallery</h3>
+            <div class="gallery-container">
+              <div class="gallery-item">
+                <div class="form-group">
+                  <label for="gallery-image-1">Image URL 1*</label>
+                  <input type="url" id="gallery-image-1" required placeholder="e.g. https://images.unsplash.com/photo-1548759806-821cafe3a51e">
+                </div>
+                <div class="form-group">
+                  <label for="gallery-alt-1">Image Alt Text*</label>
+                  <input type="text" id="gallery-alt-1" required placeholder="e.g. Sahara Desert Sunset">
+                </div>
+              </div>
+              <div class="gallery-item">
+                <div class="form-group">
+                  <label for="gallery-image-2">Image URL 2</label>
+                  <input type="url" id="gallery-image-2" placeholder="e.g. https://images.unsplash.com/photo-1547149600-a6cdf8fce60c">
+                </div>
+                <div class="form-group">
+                  <label for="gallery-alt-2">Image Alt Text</label>
+                  <input type="text" id="gallery-alt-2" placeholder="e.g. Desert Camp">
+                </div>
+              </div>
+              <button type="button" id="add-gallery-btn" class="btn btn-outline btn-sm"><i class="fas fa-plus"></i> Add Image</button>
+            </div>
+          </div>
+
+          <!-- Tour Details -->
+          <div class="form-section">
+            <h3>Tour Details</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="tour-group-size">Group Size*</label>
+                <input type="text" id="tour-group-size" required placeholder="e.g. Private Tour">
+              </div>
+              <div class="form-group">
+                <label for="tour-type">Tour Type*</label>
+                <input type="text" id="tour-type" required placeholder="e.g. Cultural, Luxury">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="tour-comfort">Comfort Level*</label>
+                <input type="text" id="tour-comfort" required placeholder="e.g. Premium">
+              </div>
+              <div class="form-group">
+                <label for="tour-languages">Languages*</label>
+                <input type="text" id="tour-languages" required placeholder="e.g. English, French, Arabic">
+              </div>
+            </div>
+          </div>
+
+          <!-- SEO Information -->
+          <div class="form-section">
+            <h3>SEO Information</h3>
+            <div class="form-group">
+              <label for="tour-meta-title">Meta Title*</label>
+              <input type="text" id="tour-meta-title" required placeholder="e.g. 8-Day Luxury Tour Imperial Cities | Travel Legacy Morocco">
+            </div>
+            <div class="form-group">
+              <label for="tour-meta-description">Meta Description*</label>
+              <textarea id="tour-meta-description" rows="3" required placeholder="Enter a concise description for search engines..."></textarea>
+            </div>
+            <div class="form-group">
+              <label for="tour-url">Tour URL Slug*</label>
+              <input type="text" id="tour-url" required placeholder="e.g. 8-days-morocco-imperial-cities-tour">
+              <small>This will be used in the URL: travel-legacy.com/[tour-url].html</small>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="button" class="btn btn-outline" id="save-draft-btn">Save as Draft</button>
+            <button type="submit" class="btn btn-primary">Publish Tour</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/file-uploader.js"></script>
+</body>
+</html>

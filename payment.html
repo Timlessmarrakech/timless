@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Verification | Travel Legacy Morocco</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/payment.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Load the PayPal SDK with the correct parameters -->
+  <script src="https://www.paypal.com/sdk/js?client-id=AZDxjDScFpQtjWTOUtWKbyN_bDt4OgqaF4eYXlewfBP4-8aqX3PiV8e1GWU6liB2CUXlkA59kJXE7M6R&currency=USD&intent=capture&commit=true"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <h1>TRAVEL LEGACY</h1>
+          <span>Experience Life</span>
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="morocco-tours.html">Tours</a></li>
+          <li class="has-submenu">
+            <a href="#">Destinations <i class="fas fa-plus"></i></a>
+            <ul class="submenu">
+              <li><a href="/destinations/Marrakech.html">Marrakech</a></li>
+              <li><a href="/destinations/Fes.html">Fes</a></li>
+              <li><a href="/destinations/Chefchaouen.html">Chefchaouen</a></li>
+              <li><a href="/destinations/Sahara-Desert.html">Sahara Desert</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn btn-primary">Book Now</a>
+        </div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="page-banner" style="background-image: url('https://images.unsplash.com/photo-1531230689007-0b32d7a7c33e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+    <div class="container">
+      <div class="page-banner-content">
+        <h1>Payment Verification</h1>
+        <div class="breadcrumbs">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Payment Verification</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Payment Verification Section -->
+  <section class="payment-verification">
+    <div class="container">
+      <div class="verification-container">
+        <div class="verification-header">
+          <h2>Verify Your Payment</h2>
+          <p>Enter your invoice ID to check the status of your payment</p>
+        </div>
+        
+        <div class="verification-form">
+          <div class="form-group">
+            <label for="invoice-id">Invoice ID</label>
+            <input type="text" id="invoice-id" placeholder="Enter your invoice ID">
+          </div>
+          <button id="verify-button" class="btn btn-primary">Verify Payment</button>
+        </div>
+        
+        <div id="verification-result" class="verification-result">
+          <!-- Results will be displayed here -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-column">
+          <div class="footer-logo">
+            <h2>TRAVEL LEGACY</h2>
+            <span>Experience Life</span>
+          </div>
+          <p>Crafting authentic Moroccan experiences since 2010. Our passion is sharing the beauty, culture, and warmth of Morocco with travelers from around the world.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="morocco-tours.html">Tours</a></li>
+            <li><a href="destinations/Marrakech.html">Destinations</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Top Destinations</h3>
+          <ul class="footer-links">
+            <li><a href="destinations/Marrakech.html">Marrakech</a></li>
+            <li><a href="destinations/Fes.html">Fes</a></li>
+            <li><a href="destinations/Chefchaouen.html">Chefchaouen</a></li>
+            <li><a href="destinations/Sahara-Desert.html">Sahara Desert</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contact Info</h3>
+          <ul class="contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> RDC APPRT 13, 106 Lotissement Al Badr <br> Casablanca, Maroc </li>
+            <li><i class="fas fa-phone"></i> +212 661-183179 
+</li>
+            <li><i class="fas fa-envelope"></i> info@amdktours.com</li>
+          </ul>
+          <div class="newsletter">
+            <h4>Subscribe to our newsletter</h4>
+            <form id="newsletter-form">
+              <input type="email" placeholder="Your email address" required>
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Travel Legacy Morocco. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top"><i class="fas fa-chevron-up"></i></button>
+
+  <!-- WhatsApp Float -->
+  <a href="https://wa.me/212668933901" target="_blank" class="whatsapp-float">
+    <i class="fab fa-whatsapp"></i>
+    <span>Chat with Us</span>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/payment.js" type="module"></script>
+  <!-- Fallback script for module loading issues -->
+  <script type="text/javascript">
+    // Handle module loading errors
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        const paypalContainer = document.getElementById('paypal-button-container');
+        if (paypalContainer && paypalContainer.children.length === 0) {
+          console.log('PayPal buttons not rendered, attempting fallback');
+          
+          const verifyButton = document.getElementById('verify-button');
+          if (verifyButton) {
+            verifyButton.addEventListener('click', function() {
+              const invoiceIdInput = document.getElementById('invoice-id');
+              const invoiceId = invoiceIdInput.value.trim();
+              
+              if (!invoiceId) {
+                alert('Please enter an invoice ID');
+                return;
+              }
+              
+              const resultContainer = document.getElementById('verification-result');
+              resultContainer.style.display = 'block';
+              resultContainer.innerHTML = `
+                <div class="payment-section">
+                  <h3>Make a Payment</h3>
+                  <p>To secure your booking, please pay using the PayPal button below.</p>
+                  <div id="direct-paypal-container"></div>
+                </div>
+              `;
+              
+              // Direct PayPal integration
+              if (window.paypal) {
+                paypal.Buttons({
+                  style: {
+                    shape: 'rect',
+                    color: 'blue',
+                    layout: 'vertical',
+                    label: 'paypal',
+                  },
+                  createOrder: function(data, actions) {
+                    return actions.order.create({
+                      purchase_units: [{
+                        description: `25% Deposit for Tour (Invoice: ${invoiceId})`,
+                        amount: {
+                          value: '100.00'
+                        },
+                        payee: {
+                          email_address: 'brahimbouarrouzn90@gmail.com'
+                        }
+                      }],
+                      application_context: {
+                        shipping_preference: 'NO_SHIPPING'
+                      }
+                    });
+                  },
+                  onApprove: function(data, actions) {
+                    return actions.order.capture().then(function(orderData) {
+                      resultContainer.innerHTML = `
+                        <h3>Payment Successful</h3>
+                        <p>Thank you for your payment! Your deposit has been received.</p>
+                        <p>Transaction ID: ${orderData.id}</p>
+                        <div class="verification-actions">
+                          <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                          <a href="morocco-tours.html" class="btn btn-outline">View Tours</a>
+                        </div>
+                      `;
+                    });
+                  }
+                }).render('#direct-paypal-container');
+              }
+            });
+          }
+        }
+      }, 2000); // Check after 2 seconds
+    });
+  </script>
+</body>
+</html>

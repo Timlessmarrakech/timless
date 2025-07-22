@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core pages -->
+  <url>
+    <loc>https://www.travel-legacy.com/</loc>
+    <lastmod>2025-05-04</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.travel-legacy.com/morocco-tours.html</loc>
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.travel-legacy.com/about.html</loc>          <!-- About Us -->
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.travel-legacy.com/contact.html</loc>        <!-- Contact -->
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Destination guides -->
+  <url>
+    <loc>https://www.travel-legacy.com/destinations/Marrakech.html</loc>
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.travel-legacy.com/destinations/Fes.html</loc>
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.travel-legacy.com/destinations/Chefchaouen.html</loc>
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.travel-legacy.com/destinations/Sahara-Desert.html</loc>
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Tour detail pages -->
+  <url>
+    <loc>https://www.travel-legacy.com/8‑Day Private Morocco Expedition 2025‑26.html</loc>
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.travel-legacy.com/8-days-morocco-imperial-cities-tour.html</loc>
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.travel-legacy.com/5-days-sahara-desert-safari.html</loc>
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.travel-legacy.com/10-days-ultimate-northern-morocco-private-tour.html</loc>
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.travel-legacy.com/11-Day-Luxury-Journey-Through-Imperial-Capitals-Saharan-Dunes-Timeless-Treasures.html</loc>
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.travel-legacy.com/10‑Day-Jewish-Heritage-Journey-Historic-Synagogues-Sacred-Sites-Living-Communities.html</loc>
+    <lastmod>2025-05-04</lastmod>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
