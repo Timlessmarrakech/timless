@@ -1,0 +1,37 @@
+[
+  {
+    "id": "test1",
+    "name": "Traveler 1",
+    "photo": "https://source.unsplash.com/random/100x100?face&sig=1",
+    "text": "Lorem ipsum testimonial 1.",
+    "location": "USA"
+  },
+  {
+    "id": "test2",
+    "name": "Traveler 2",
+    "photo": "https://source.unsplash.com/random/100x100?face&sig=2",
+    "text": "Lorem ipsum testimonial 2.",
+    "location": "USA"
+  },
+  {
+    "id": "test3",
+    "name": "Traveler 3",
+    "photo": "https://source.unsplash.com/random/100x100?face&sig=3",
+    "text": "Lorem ipsum testimonial 3.",
+    "location": "USA"
+  },
+  {
+    "id": "test4",
+    "name": "Traveler 4",
+    "photo": "https://source.unsplash.com/random/100x100?face&sig=4",
+    "text": "Lorem ipsum testimonial 4.",
+    "location": "USA"
+  },
+  {
+    "id": "test5",
+    "name": "Traveler 5",
+    "photo": "https://source.unsplash.com/random/100x100?face&sig=5",
+    "text": "Lorem ipsum testimonial 5.",
+    "location": "USA"
+  }
+]

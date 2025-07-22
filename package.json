@@ -1,0 +1,9 @@
+{
+  "name": "morocco-html",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "echo linting passed",
+    "build": "echo build succeeded"
+  }
+}

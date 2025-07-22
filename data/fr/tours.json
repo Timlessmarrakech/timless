@@ -1,0 +1,557 @@
+[
+  {
+    "id": "tour1",
+    "title": "Sample Tour 1",
+    "slug": "sample-tour-1",
+    "durationDays": 9,
+    "priceFrom": 454,
+    "startCity": "Fes",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=1"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Moderate",
+    "season": "Summer",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour2",
+    "title": "Sample Tour 2",
+    "slug": "sample-tour-2",
+    "durationDays": 3,
+    "priceFrom": 644,
+    "startCity": "Casablanca",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=2"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Challenging",
+    "season": "Autumn",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour3",
+    "title": "Sample Tour 3",
+    "slug": "sample-tour-3",
+    "durationDays": 5,
+    "priceFrom": 410,
+    "startCity": "Marrakech",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=3"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Easy",
+    "season": "Winter",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour4",
+    "title": "Sample Tour 4",
+    "slug": "sample-tour-4",
+    "durationDays": 10,
+    "priceFrom": 618,
+    "startCity": "Fes",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=4"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Moderate",
+    "season": "Spring",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour5",
+    "title": "Sample Tour 5",
+    "slug": "sample-tour-5",
+    "durationDays": 3,
+    "priceFrom": 627,
+    "startCity": "Casablanca",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=5"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Challenging",
+    "season": "Summer",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour6",
+    "title": "Sample Tour 6",
+    "slug": "sample-tour-6",
+    "durationDays": 10,
+    "priceFrom": 632,
+    "startCity": "Marrakech",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=6"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Easy",
+    "season": "Autumn",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour7",
+    "title": "Sample Tour 7",
+    "slug": "sample-tour-7",
+    "durationDays": 6,
+    "priceFrom": 292,
+    "startCity": "Fes",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=7"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Moderate",
+    "season": "Winter",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour8",
+    "title": "Sample Tour 8",
+    "slug": "sample-tour-8",
+    "durationDays": 9,
+    "priceFrom": 420,
+    "startCity": "Casablanca",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=8"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Challenging",
+    "season": "Spring",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour9",
+    "title": "Sample Tour 9",
+    "slug": "sample-tour-9",
+    "durationDays": 4,
+    "priceFrom": 378,
+    "startCity": "Marrakech",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=9"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Easy",
+    "season": "Summer",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour10",
+    "title": "Sample Tour 10",
+    "slug": "sample-tour-10",
+    "durationDays": 8,
+    "priceFrom": 546,
+    "startCity": "Fes",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=10"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Moderate",
+    "season": "Autumn",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour11",
+    "title": "Sample Tour 11",
+    "slug": "sample-tour-11",
+    "durationDays": 4,
+    "priceFrom": 544,
+    "startCity": "Casablanca",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=11"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Challenging",
+    "season": "Winter",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour12",
+    "title": "Sample Tour 12",
+    "slug": "sample-tour-12",
+    "durationDays": 3,
+    "priceFrom": 403,
+    "startCity": "Marrakech",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=12"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Easy",
+    "season": "Spring",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour13",
+    "title": "Sample Tour 13",
+    "slug": "sample-tour-13",
+    "durationDays": 4,
+    "priceFrom": 609,
+    "startCity": "Fes",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=13"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Moderate",
+    "season": "Summer",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour14",
+    "title": "Sample Tour 14",
+    "slug": "sample-tour-14",
+    "durationDays": 8,
+    "priceFrom": 298,
+    "startCity": "Casablanca",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=14"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Challenging",
+    "season": "Autumn",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "tour15",
+    "title": "Sample Tour 15",
+    "slug": "sample-tour-15",
+    "durationDays": 6,
+    "priceFrom": 577,
+    "startCity": "Marrakech",
+    "highlights": [
+      "Highlight A",
+      "Highlight B",
+      "Highlight C"
+    ],
+    "itinerary": [
+      "Day 1: Lorem ipsum",
+      "Day 2: Dolor sit"
+    ],
+    "inclusions": [
+      "Transport",
+      "Guide"
+    ],
+    "exclusions": [
+      "Flights",
+      "Lunches"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=15"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "culture",
+      "adventure"
+    ],
+    "category": "Tour",
+    "difficulty": "Easy",
+    "season": "Winter",
+    "bookingLink": "https://example.com/book"
+  }
+]

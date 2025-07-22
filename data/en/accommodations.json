@@ -1,0 +1,287 @@
+[
+  {
+    "id": "acc1",
+    "name": "Sample Riad 1",
+    "slug": "sample-riad-1",
+    "city": "Fes",
+    "type": "Hotel",
+    "priceRange": "$60 - $110",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=101"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc2",
+    "name": "Sample Riad 2",
+    "slug": "sample-riad-2",
+    "city": "Merzouga",
+    "type": "Camp",
+    "priceRange": "$70 - $120",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=102"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc3",
+    "name": "Sample Riad 3",
+    "slug": "sample-riad-3",
+    "city": "Marrakech",
+    "type": "Riad",
+    "priceRange": "$80 - $130",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=103"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc4",
+    "name": "Sample Riad 4",
+    "slug": "sample-riad-4",
+    "city": "Fes",
+    "type": "Hotel",
+    "priceRange": "$90 - $140",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=104"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc5",
+    "name": "Sample Riad 5",
+    "slug": "sample-riad-5",
+    "city": "Merzouga",
+    "type": "Camp",
+    "priceRange": "$100 - $150",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=105"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc6",
+    "name": "Sample Riad 6",
+    "slug": "sample-riad-6",
+    "city": "Marrakech",
+    "type": "Riad",
+    "priceRange": "$110 - $160",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=106"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc7",
+    "name": "Sample Riad 7",
+    "slug": "sample-riad-7",
+    "city": "Fes",
+    "type": "Hotel",
+    "priceRange": "$120 - $170",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=107"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc8",
+    "name": "Sample Riad 8",
+    "slug": "sample-riad-8",
+    "city": "Merzouga",
+    "type": "Camp",
+    "priceRange": "$130 - $180",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=108"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc9",
+    "name": "Sample Riad 9",
+    "slug": "sample-riad-9",
+    "city": "Marrakech",
+    "type": "Riad",
+    "priceRange": "$140 - $190",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=109"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc10",
+    "name": "Sample Riad 10",
+    "slug": "sample-riad-10",
+    "city": "Fes",
+    "type": "Hotel",
+    "priceRange": "$150 - $200",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=110"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc11",
+    "name": "Sample Riad 11",
+    "slug": "sample-riad-11",
+    "city": "Merzouga",
+    "type": "Camp",
+    "priceRange": "$160 - $210",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=111"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc12",
+    "name": "Sample Riad 12",
+    "slug": "sample-riad-12",
+    "city": "Marrakech",
+    "type": "Riad",
+    "priceRange": "$170 - $220",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=112"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc13",
+    "name": "Sample Riad 13",
+    "slug": "sample-riad-13",
+    "city": "Fes",
+    "type": "Hotel",
+    "priceRange": "$180 - $230",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=113"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc14",
+    "name": "Sample Riad 14",
+    "slug": "sample-riad-14",
+    "city": "Merzouga",
+    "type": "Camp",
+    "priceRange": "$190 - $240",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=114"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "acc15",
+    "name": "Sample Riad 15",
+    "slug": "sample-riad-15",
+    "city": "Marrakech",
+    "type": "Riad",
+    "priceRange": "$200 - $250",
+    "amenities": [
+      "Wifi",
+      "Breakfast",
+      "Air Conditioning"
+    ],
+    "photos": [
+      "https://source.unsplash.com/random/800x600?hotel&sig=115"
+    ],
+    "descriptionShort": "Short description lorem ipsum",
+    "descriptionLong": "Long description lorem ipsum dolor sit amet.",
+    "bookingLink": "https://example.com/book"
+  }
+]

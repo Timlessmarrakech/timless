@@ -1,0 +1,27 @@
+[
+  {
+    "id": "faq1",
+    "question": "Sample question 1?",
+    "answer": "Sample answer lorem ipsum 1."
+  },
+  {
+    "id": "faq2",
+    "question": "Sample question 2?",
+    "answer": "Sample answer lorem ipsum 2."
+  },
+  {
+    "id": "faq3",
+    "question": "Sample question 3?",
+    "answer": "Sample answer lorem ipsum 3."
+  },
+  {
+    "id": "faq4",
+    "question": "Sample question 4?",
+    "answer": "Sample answer lorem ipsum 4."
+  },
+  {
+    "id": "faq5",
+    "question": "Sample question 5?",
+    "answer": "Sample answer lorem ipsum 5."
+  }
+]

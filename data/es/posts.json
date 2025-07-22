@@ -1,0 +1,47 @@
+[
+  {
+    "id": "post1",
+    "title": "Blog Post 1",
+    "slug": "blog-post-1",
+    "date": "2024-01-01",
+    "excerpt": "Short excerpt 1",
+    "content": "<p>Lorem ipsum 1</p>",
+    "image": "https://source.unsplash.com/random/800x600?travel&sig=201"
+  },
+  {
+    "id": "post2",
+    "title": "Blog Post 2",
+    "slug": "blog-post-2",
+    "date": "2024-02-01",
+    "excerpt": "Short excerpt 2",
+    "content": "<p>Lorem ipsum 2</p>",
+    "image": "https://source.unsplash.com/random/800x600?travel&sig=202"
+  },
+  {
+    "id": "post3",
+    "title": "Blog Post 3",
+    "slug": "blog-post-3",
+    "date": "2024-03-01",
+    "excerpt": "Short excerpt 3",
+    "content": "<p>Lorem ipsum 3</p>",
+    "image": "https://source.unsplash.com/random/800x600?travel&sig=203"
+  },
+  {
+    "id": "post4",
+    "title": "Blog Post 4",
+    "slug": "blog-post-4",
+    "date": "2024-04-01",
+    "excerpt": "Short excerpt 4",
+    "content": "<p>Lorem ipsum 4</p>",
+    "image": "https://source.unsplash.com/random/800x600?travel&sig=204"
+  },
+  {
+    "id": "post5",
+    "title": "Blog Post 5",
+    "slug": "blog-post-5",
+    "date": "2024-05-01",
+    "excerpt": "Short excerpt 5",
+    "content": "<p>Lorem ipsum 5</p>",
+    "image": "https://source.unsplash.com/random/800x600?travel&sig=205"
+  }
+]

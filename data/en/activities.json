@@ -1,0 +1,437 @@
+[
+  {
+    "id": "act1",
+    "title": "Sample Activity 1",
+    "slug": "sample-activity-1",
+    "durationHours": 8,
+    "priceFrom": 106,
+    "startCity": "Fes",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=51"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Moderate",
+    "season": "Summer",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act2",
+    "title": "Sample Activity 2",
+    "slug": "sample-activity-2",
+    "durationHours": 4,
+    "priceFrom": 146,
+    "startCity": "Agadir",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=52"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Challenging",
+    "season": "Autumn",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act3",
+    "title": "Sample Activity 3",
+    "slug": "sample-activity-3",
+    "durationHours": 8,
+    "priceFrom": 119,
+    "startCity": "Marrakech",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=53"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Easy",
+    "season": "Winter",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act4",
+    "title": "Sample Activity 4",
+    "slug": "sample-activity-4",
+    "durationHours": 4,
+    "priceFrom": 92,
+    "startCity": "Fes",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=54"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Moderate",
+    "season": "Spring",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act5",
+    "title": "Sample Activity 5",
+    "slug": "sample-activity-5",
+    "durationHours": 8,
+    "priceFrom": 92,
+    "startCity": "Agadir",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=55"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Challenging",
+    "season": "Summer",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act6",
+    "title": "Sample Activity 6",
+    "slug": "sample-activity-6",
+    "durationHours": 4,
+    "priceFrom": 146,
+    "startCity": "Marrakech",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=56"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Easy",
+    "season": "Autumn",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act7",
+    "title": "Sample Activity 7",
+    "slug": "sample-activity-7",
+    "durationHours": 8,
+    "priceFrom": 74,
+    "startCity": "Fes",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=57"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Moderate",
+    "season": "Winter",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act8",
+    "title": "Sample Activity 8",
+    "slug": "sample-activity-8",
+    "durationHours": 4,
+    "priceFrom": 60,
+    "startCity": "Agadir",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=58"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Challenging",
+    "season": "Spring",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act9",
+    "title": "Sample Activity 9",
+    "slug": "sample-activity-9",
+    "durationHours": 8,
+    "priceFrom": 68,
+    "startCity": "Marrakech",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=59"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Easy",
+    "season": "Summer",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act10",
+    "title": "Sample Activity 10",
+    "slug": "sample-activity-10",
+    "durationHours": 4,
+    "priceFrom": 108,
+    "startCity": "Fes",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=60"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Moderate",
+    "season": "Autumn",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act11",
+    "title": "Sample Activity 11",
+    "slug": "sample-activity-11",
+    "durationHours": 8,
+    "priceFrom": 145,
+    "startCity": "Agadir",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=61"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Challenging",
+    "season": "Winter",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act12",
+    "title": "Sample Activity 12",
+    "slug": "sample-activity-12",
+    "durationHours": 4,
+    "priceFrom": 72,
+    "startCity": "Marrakech",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=62"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Easy",
+    "season": "Spring",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act13",
+    "title": "Sample Activity 13",
+    "slug": "sample-activity-13",
+    "durationHours": 8,
+    "priceFrom": 135,
+    "startCity": "Fes",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=63"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Moderate",
+    "season": "Summer",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act14",
+    "title": "Sample Activity 14",
+    "slug": "sample-activity-14",
+    "durationHours": 4,
+    "priceFrom": 65,
+    "startCity": "Agadir",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=64"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Challenging",
+    "season": "Autumn",
+    "bookingLink": "https://example.com/book"
+  },
+  {
+    "id": "act15",
+    "title": "Sample Activity 15",
+    "slug": "sample-activity-15",
+    "durationHours": 8,
+    "priceFrom": 140,
+    "startCity": "Marrakech",
+    "highlights": [
+      "Exciting place",
+      "Great food"
+    ],
+    "inclusions": [
+      "Guide"
+    ],
+    "exclusions": [
+      "Tips"
+    ],
+    "gallery": [
+      "https://source.unsplash.com/random/800x600?morocco&sig=65"
+    ],
+    "mapEmbedURL": "https://www.google.com/maps",
+    "tags": [
+      "day trip"
+    ],
+    "category": "Activity",
+    "difficulty": "Easy",
+    "season": "Winter",
+    "bookingLink": "https://example.com/book"
+  }
+]
